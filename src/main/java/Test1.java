@@ -13,7 +13,7 @@ import java.time.Duration;
 //Построение маршрута для вида транспорта "Личный авто"
 public class Test1 {
     public static void main(String[] args){
-        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sviatoslav\\IdeaProjects\\AutoTest\\src\\driver\\chromedriver.exe");
+        
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
